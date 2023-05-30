@@ -219,6 +219,7 @@ void NetCSV::procesar_siguiente()
 
         qDebug() << QDateTime::currentDateTime();
         emit finished();
+        exit(0);
     }
 }
 
